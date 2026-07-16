@@ -4,6 +4,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
+    "startCommand": "python app.py",
     "numReplicas": 1,
     "restartPolicyType": "on_failure",
     "restartPolicyMaxRetries": 5
